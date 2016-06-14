@@ -11,5 +11,4 @@ for reservation in reservations:
 	instances = reservation.instances
 	for instance in instances:
 		name = ec2.get_all_tags(filters={'resource-id': instance.id, 'key':'Name'})[0].value
-		#if name[ :2] == "st":
 		print name,":",instance.instance_type,":",instance.id,":",instance.private_ip_address
