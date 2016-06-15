@@ -1,1 +1,1 @@
-[ ] aws_instance_info.py : Customised AWS instance info.
+[]aws_instance_info.py : Customised AWS instance info.
